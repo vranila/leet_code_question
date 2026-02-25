@@ -28,9 +28,7 @@ s consists of printable ASCII characters.*/
 var toLowerCase = function(s) {
     // s=s.toLowerCase();
     // return s;
-    let upper="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let lower="";
-    let result="";
+    
     let i=0;
 
     while(s[i] !== undefined)

@@ -39,3 +39,9 @@ function reverseWords(s){
      return result;
 
 }
+
+
+//or using built in function
+
+ // s =s.split("").reverse().join("").split(" ").reverse().join(" ")
+// return s
